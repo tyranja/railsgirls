@@ -1,4 +1,6 @@
 Railsgirls2::Application.routes.draw do
+  resources :comments
+
 root :to => redirect("/ideas")
 
 root :to => redirect("/ideas")

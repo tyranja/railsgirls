@@ -12,7 +12,7 @@ group :production do
   gem 'pg'
 end
 
-
+gem 'foreigner'
 
 gem 'carrierwave'
 
